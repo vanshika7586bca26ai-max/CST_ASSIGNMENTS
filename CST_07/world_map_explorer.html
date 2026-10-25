@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>World Map Image Map</title>
+<style>
+  img { max-width: 100%; height: auto; }
+  body { font-family: Arial; text-align: center; }
+</style>
+</head>
+<body>
+
+<h2>World Map - Click on Continent</h2>
+
+<img src="./image_world/world.jpeg" width="1100" height="560" usemap="#worldmap" alt="World Map">
+
+<map name="worldmap">
+  <!-- CONTINENTS - POLY  -->
+  <area shape="poly" coords="186,60,390,49,335,103,400,93,257,224,222,127" 
+        alt="North America" title="North America" href="https://en.wikipedia.org/wiki/North_America">
+
+  <area shape="poly" coords="323,261,452,314,376,471,352,350,314,301" 
+        alt="South America" title="South America" href="https://en.wikipedia.org/wiki/South_America">
+
+  
+  <area shape="poly" coords="510,214,709,251,615,409,592,271,567,160,662,180" 
+        alt="Africa" title="Africa" href="https://en.wikipedia.org/wiki/Africa">
+
+  <!-- RECT-->
+  <area shape="rect" coords="1000,350,902,423" 
+        alt="Australia" title="Australia" href="https://en.wikipedia.org/wiki/Australia">
+
+  <area shape="rect" coords="412,529,274,564" 
+        alt="Antarctica" title="Antarctica" href="https://en.wikipedia.org/wiki/Antarctica">
+   <area shape="rect" coords="844,514,523,563"
+   alt="Antarctica" title="Antarctica" href="https://en.wikipedia.org/wiki/Antarctica">
+
+  <!-- CIRCLE  -->
+  <area shape="circle" coords="516,373,57" 
+        alt="Atlantic Ocean" title="Atlantic Ocean" href="https://en.wikipedia.org/wiki/Atlantic_Ocean">
+
+  <area shape="circle" coords="785,342,85" 
+        alt="Indian Ocean" title="Indian Ocean" href="https://en.wikipedia.org/wiki/Indian_Ocean">
+
+
+</map>
+
+</body>
+</html>
