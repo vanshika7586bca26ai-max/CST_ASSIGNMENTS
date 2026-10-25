@@ -1,0 +1,114 @@
+<html>
+<head>
+    <title>Online Course Registration</title>
+</head>
+<body>
+
+<h1>Online Course Registration Form</h1>
+
+<form action="#" target="_self">
+
+    <h3>Personal Information</h3>
+
+    <label for="name">Student Name:</label>
+    <input type="text" id="name" name="name"
+    placeholder="Enter your name" required>
+    <br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email"
+    placeholder="Enter your email" required>
+    <br><br>
+
+    <label for="mobile">Mobile Number:</label>
+    <input type="tel" id="mobile" name="mobile"
+    required>
+    <br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age">
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password"
+    name="password" required>
+    <br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob">
+    <br><br>
+
+    <label for="time">Preferred Class Time:</label>
+    <input type="time" id="time" name="time">
+    <br><br>
+
+    <h3>Gender</h3>
+
+    <input type="radio" id="male" name="gender"
+    value="Male" required>
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender"
+    value="Female">
+    <label for="female">Female</label>
+
+    <input type="radio" id="other" name="gender"
+    value="Other">
+    <label for="other">Other</label>
+    <br><br>
+
+    <h3>Skills</h3>
+
+    <input type="checkbox" id="html" name="skills"
+    value="HTML">
+    <label for="html">HTML</label>
+
+    <input type="checkbox" id="css" name="skills"
+    value="CSS">
+    <label for="css">CSS</label>
+
+    <input type="checkbox" id="js" name="skills"
+    value="JavaScript">
+    <label for="js">JavaScript</label>
+
+    <input type="checkbox" id="python" name="skills"
+    value="Python">
+    <label for="python">Python</label>
+    <br><br>
+
+    <h3>Select Course</h3>
+
+    <label for="course">Choose a Course:</label>
+
+    <select id="course" name="course" required>
+        <option value="">Select Course</option>
+        <option value="Web Development">Web Development</option>
+        <option value="Python Programming">Python Programming</option>
+        <option value="Data Analytics">Data Analytics</option>
+        <option value="Digital Marketing">Digital Marketing</option>
+    </select>
+    <br><br>
+
+    <input type="hidden" name="form"
+    value="Online Course Registration">
+
+    <h3>Address / Additional Information</h3>
+
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address"
+    rows="4" cols="30"
+    placeholder="Enter your address"></textarea>
+    <br><br>
+
+    <label for="file">Upload Document or Photo:</label>
+    <input type="file" id="file" name="file"
+    accept="image/*,.pdf">
+    <br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
